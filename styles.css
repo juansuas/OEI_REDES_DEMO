@@ -34,7 +34,7 @@ body {
 }
 
 main {
-  width: min(100% - 40px, 1160px);
+  width: min(100% - 16px, 1366px);
   margin-inline: auto;
   padding: clamp(28px, 5vw, 64px) 0 clamp(48px, 8vw, 96px);
 }
@@ -57,7 +57,7 @@ main {
   overflow: hidden;
   border: 1px solid rgb(62 78 99 / 18%);
   border-top: 7px solid var(--ricyt-red);
-  border-radius: 14px;
+  border-radius: 0;
   background: var(--surface);
   box-shadow: 0 16px 42px rgb(62 78 99 / 12%);
 }
@@ -75,12 +75,11 @@ main {
 
 @media (max-width: 480px) {
   main {
-    width: calc(100% - 20px);
+    width: calc(100% - 8px);
     padding-top: 18px;
   }
 
   .dashboard-frame {
     border-top-width: 5px;
-    border-radius: 9px;
   }
 }
